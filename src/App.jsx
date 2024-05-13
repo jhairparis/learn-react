@@ -1,15 +1,9 @@
 import "./App.css";
-import Cards from "./cards/index";
-import Form from "./forms";
-import Counter from "./hooks";
+import AppRoutes from "./routes/Routes";
 
 function App() {
   return (
-    <>
-      <Cards />
-      <Form />
-      <Counter />
-    </>
+    <AppRoutes />
   );
 }
 
